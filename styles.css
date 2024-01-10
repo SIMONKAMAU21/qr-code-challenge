@@ -4,29 +4,41 @@
 
 }
 body{
-    background-color:turquoise;
+    background-color:hsl(212, 45%, 89%);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.container{
-    height: 350px;
-    width:280px;
+.container {
+    height: 60vh;
+    /* width: 300px; */
+    width: 70vw;
     background-color: aliceblue;
     border-radius: 5px;
+    margin: 5% 40%;
+    padding: 1%;
 
 }
-.container img{
+
+.container img {
     justify-content: center;
     align-items: center;
     height: 200px;
-    width: 200px;
+    width: 100%;
     display: flex;
-    padding: 20px 30px;
-    border: radius 10px;;
-}
 
+    border-radius: 10px;
+}
 p{
     font-size: small;
-    margin: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
 }
+.text1{
+    font-size:large;
+    font-weight: bold;
+    
+    }
+    .text2{
+        font-size:small;
+    }
